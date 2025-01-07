@@ -1,0 +1,10 @@
+div.container-btn {
+    margin: 24px;
+}
+
+.my-btn {
+    padding: 12px 24px;
+    background-color: green;
+    border: none;
+    border-radius: 12px;
+}
