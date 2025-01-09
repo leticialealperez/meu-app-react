@@ -1,4 +1,4 @@
-import "./Card.css";
+import { CardStyled } from "./CardStyled";
 
 interface CardProps {
   titulo: string;
@@ -8,7 +8,7 @@ interface CardProps {
 
 function Card(props: CardProps) {
   return (
-    <div className="container-card">
+    <CardStyled>
       <h2>{props.titulo}</h2>
       <p>{props.descricao}</p>
       <h3>
@@ -18,7 +18,7 @@ function Card(props: CardProps) {
         })}
         {/* R$ 200,50 */}
       </h3>
-    </div>
+    </CardStyled>
   );
 }
 
